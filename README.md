@@ -35,12 +35,6 @@ pip install -r requirements.txt
 python wechat_auto_send.py
 ```
 
-### 2. 打包成exe程序
-
-双击运行 `build_exe.bat` 脚本，会自动安装依赖并打包成exe文件。
-
-打包完成后，可执行文件位于 `dist\wechat_auto_send.exe`。
-
 ## 操作步骤
 
 1. 运行程序
@@ -107,7 +101,6 @@ wechat_auto_send/
 - **键盘模拟**：使用 `win32api` 模拟键盘事件
 - **时间处理**：使用 `datetime` 处理定时发送
 - **日志记录**：使用文件操作记录详细日志
-- **打包工具**：使用 `pyinstaller` 打包成exe程序
 
 ## 日志格式
 
