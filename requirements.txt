@@ -1,0 +1,6 @@
+pyautogui
+pyperclip
+opencv-python
+Pillow
+pypiwin32
+pyinstaller
